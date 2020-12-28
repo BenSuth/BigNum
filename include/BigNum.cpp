@@ -164,9 +164,6 @@ void BigNum::swap(BigNum *x,  BigNum *y)
   BigNum temp = *x; 
   *x = *y; 
   *y = temp;
-
-  x->setNumber(x->abs());
-  y->setNumber(y->abs());
 }    
 
 /*
@@ -187,7 +184,6 @@ BigNum BigNum::pow(BigNum a, BigNum b)
       product *= a;
     }
 
-    product.setSign(false);
     return product;
   }
 
