@@ -135,7 +135,7 @@ BigNum objects can be initialized with a string representation of a number or an
     BigNum a("5");
     BigNum b("2");
     
-    BigNum c = pow(a,b); // c == "25"
+    BigNum c = BigNum::pow(a,b); // c == "25"
     ```    
     
     
