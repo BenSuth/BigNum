@@ -1,5 +1,6 @@
 #ifndef BIGNUM_H
 #define BIGNUM_H
+
 #include <string>
 #include <iostream>
 
